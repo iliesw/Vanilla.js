@@ -1,0 +1,16 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun --watch server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-html-parser": "^6.1.13",
+    "path-to-regexp": "^8.2.0"
+  }
+}
