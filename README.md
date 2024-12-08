@@ -55,9 +55,9 @@ YourProject/
 📂 Frontend/Components/Card.html
 
 ```html
-<Card style="--Color: {{Color}}">
+<Card style="--Color: {Color}">
     <h1>This is a Card Component</h1>
-    <p>this is a {{Color}} Card</p>
+    <p>this is a {Color} Card</p>
     <style>
         card {
             background-color: var(--Color);
@@ -94,11 +94,11 @@ Create view templates in your Views directory:
 
 ```html
 <UserCard>
-    <h2>{{username}}</h2>
-    <p>{{bio}}</p>
+    <h2>{username}</h2>
+    <p>{bio}</p>
     <Stats>
-        <span>Followers: {{followers}}</span>
-        <span>Following: {{following}}</span>
+        <span>Followers: {followers}</span>
+        <span>Following: {following}</span>
     </Stats>
     <style>
         usercard {
@@ -124,8 +124,6 @@ binding:
 - 🔄 **Hot Reload Support**: Views update automatically during development
 - 📦 **Scoped Styling (TODO)**: CSS defined within views only affects that view
 - 🎯 **Lazy Loading (TODO)**: Views are loaded only when needed
-- 🔌 **Data Binding (TODO)**: Pass dynamic data to views using the data
-  attribute
 
 ## 🛣️ Routing
 
